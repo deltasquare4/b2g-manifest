@@ -105,7 +105,7 @@
 
   <!-- HTC Desire things -->
   <project path="device/qcom/common" name="device/qcom/common" />
-  <project path="device/htc/generic" name="device/htc/generic" />
+  <project path="device/htc/common" name="device/htc/common" />
   <project path="device/htc/bravo" name="android_device_htc_bravo" remote="evervolv" revision="jellybean-4.1.2" />
   <project path="kernel" name="eternity-kernel" remote="deltasquare4" revision="jellybean" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" />
@@ -113,5 +113,5 @@
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  
+
 </manifest>
