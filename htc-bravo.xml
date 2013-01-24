@@ -12,9 +12,14 @@
   <remote name="mozilla"
 	  fetch="git://github.com/mozilla/" />
   <remote name="mozillaorg"
-	  fetch="http://git.mozilla.org/" />
-  <default revision="refs/tags/android-4.0.4_r1.2"
-           remote="linaro"
+    fetch="http://git.mozilla.org/" />
+  <remote name="caf"
+          fetch="git://codeaurora.org/" />
+  <remote name="evervolv"
+    fetch="git://github.com/Evervolv/" />
+  
+  <default revision="ics_chocolate_rb4.2"
+           remote="caf"
            sync-j="4" />
 
   <!-- Gonk specific things and forks -->
@@ -98,8 +103,16 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
 
-  <!-- Galaxy S2 things -->
-  <project path="device/htc/bravo" name="eternity-kernel" remote="deltasquare4" revision="jellybean" />
+  <!-- HTC Desire things -->
+  <project path="device/qcom/common" name="device/qcom/common" />
+  <project path="device/htc/generic" name="device/htc/generic" />
+  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="evervolv" revision="jellybean-4.1.2" />
+  <project path="kernel" name="eternity-kernel" remote="deltasquare4" revision="jellybean" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="b2g" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
+  <project path="hardware/ril" name="platform/hardware/ril" remote="caf" revision="fe9a3f63922143b57e79ed570bab2328df8c83a5"/>
 
 </manifest>
