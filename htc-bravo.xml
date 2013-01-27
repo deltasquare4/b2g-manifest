@@ -35,8 +35,7 @@
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
+  <project path="bionic" name="android_bionic" remote="evervolv" revision="jellybean-4.1.2" />
   <project path="device/common" name="device/common" />
   <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
@@ -90,31 +89,31 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="evervolv" revision="jellybean-4.1.2" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/support" name="platform/frameworks/support" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
-  <project path="hardware/ril" name="platform/hardware/ril" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="evervolv" revision="jellybean-4.1.2" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="evervolv" revision="jellybean-4.1.2" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="evervolv" revision="jellybean-4.1.2" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="prebuilt" name="platform/prebuilt" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
-  <project path="system/extras" name="platform/system/extras" />
-  <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="platform/system/netd" />
-  <project path="system/vold" name="platform/system/vold" />
+  <project path="system/bluetooth" name="android_system_bluetooth" remote="evervolv" revision="jellybean-4.1.2" />
+  <project path="system/core" name="android_system_core" remote="evervolv" revision="jellybean-4.1.2" />
+  <project path="system/extras" name="android_system_extras" remote="evervolv" revision="jellybean-4.1.2" />
+  <project path="system/media" name="android_system_media" remote="evervolv" revision="jellybean-4.1.2" />
+  <project path="system/netd" name="android_system_netd" remote="evervolv" revision="jellybean-4.1.2" />
+  <project path="system/vold" name="android_system_vold" remote="evervolv" revision="jellybean-4.1.2" />
 
   <!-- HTC Desire things -->
-  <project path="device/qcom/common" name="device/qcom/common" />
   <project path="device/htc/common" name="android_device_htc_common" remote="evervolv" revision="ics" />
   <project path="device/htc/bravo" name="android_device_htc_bravo" remote="evervolv" revision="jellybean-4.1.2" />
   <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="evervolv" revision="jellybean-4.1.2" />
   <project path="frameworks/native" name="android_frameworks_native" remote="evervolv" revision="jellybean-4.1.2" />
   <project path="kernel" name="eternity-kernel" remote="deltasquare4" revision="jellybean" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="b2g" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="evervolv" revision="jellybean" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="evervolv" revision="jellybean-4.1.2" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="evervolv" revision="jellybean-4.1.2" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="evervolv" revision="jellybean-4.1.2" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="evervolv" revision="jellybean-4.1.2" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="evervolv" revision="jellybean" />
   <project path="vendor/htc" name="android_vendor_htc" remote="evervolv" revision="jellybean-4.1.2" />
 
 </manifest>
