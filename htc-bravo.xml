@@ -95,7 +95,7 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="evervolv" revision="jellybean" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
-  <project path="prebuilt" name="platform/prebuilt" />
+  <project path="prebuilt" name="platform/prebuilt" revision="refs/tags/android-4.1.2_r1" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="evervolv" revision="jellybean" />
   <project path="system/core" name="android_system_core" remote="evervolv" revision="jellybean" />
   <project path="system/extras" name="android_system_extras" remote="evervolv" revision="jellybean" />
