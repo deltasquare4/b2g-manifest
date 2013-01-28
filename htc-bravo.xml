@@ -83,8 +83,8 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
+  <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="evervolv" revision="jellybean" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="evervolv" revision="jellybean" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="frameworks/base" name="android_frameworks_base" remote="evervolv" revision="jellybean" />
