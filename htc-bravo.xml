@@ -4,20 +4,24 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-  <remote name="deltasquare4"
-          fetch="git://github.com/deltasquare4/" />
+  <remote name="evervolv"
+           fetch="git://github.com/Evervolv/"
+     review="review.evervolv.com"/>
+  <remote  name="cm"
+           fetch="git://github.com/CyanogenMod/" 
+           review="review.cyanogenmod.com" />
+
   <remote name="b2g"
           fetch="git://github.com/mozilla-b2g/" />
-  <remote  name="linaro"
-           fetch="git://android.git.linaro.org/" />
   <remote name="mozilla"
-	  fetch="git://github.com/mozilla/" />
+    fetch="git://github.com/mozilla/" />
   <remote name="mozillaorg"
     fetch="http://git.mozilla.org/" />
-  <remote name="evervolv"
-    fetch="git://github.com/Evervolv/" />
-  
-  <default revision="refs/tags/android-4.2.1_r1"
+
+  <remote name="deltasquare4"
+          fetch="git://github.com/deltasquare4/" />
+
+  <default revision="refs/tags/android-4.0.4_r2.1"
            remote="aosp"
            sync-j="4" />
 
