@@ -43,10 +43,12 @@
   <project path="device/common" name="device/common" />
   <project path="device/sample" name="device/sample" />
   <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="master" />
+  <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="evervolv" revision="ics" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
+  <project path="external/busybox" name="android_external_busybox" remote="evervolv" revision="ics"/>
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -67,9 +69,11 @@
   <project path="external/liblzf" name="platform/external/liblzf" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
+  <project path="external/libphonenumber" name="platform/external/libphonenumber" />
   <project path="external/libpng" name="platform/external/libpng" />
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/mksh" name="platform/external/mksh" />
+  <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="master" />
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/protobuf" name="platform/external/protobuf" />
