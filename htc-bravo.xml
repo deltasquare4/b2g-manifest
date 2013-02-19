@@ -23,7 +23,7 @@
 
   <default revision="refs/tags/android-4.0.4_r2.1"
            remote="aosp"
-           sync-j="4" />
+           sync-j="1" />
 
   <!-- Gonk specific things and forks -->
   <project path="build" name="platform_build" remote="deltasquare4" revision="master">
