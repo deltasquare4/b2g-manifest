@@ -109,10 +109,10 @@
   <!-- HTC Desire things -->
   <project path="device/htc/common" name="android_device_htc_common" remote="evervolv" revision="ics" />
   <project path="device/htc/bravo" name="android_device_htc_bravo" remote="evervolv" revision="ics" />
+  <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="evervolv" revision="ics" />
   <project path="vendor/htc" name="android_vendor_htc" remote="evervolv" revision="ics" />
 
 <!--
-  <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="evervolv" revision="ics" />
   <project path="frameworks/native" name="android_frameworks_native" remote="evervolv" revision="jellybean" />
   <project path="kernel" name="eternity-kernel" remote="deltasquare4" revision="jellybean" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="evervolv" revision="jellybean" />
