@@ -116,8 +116,10 @@
   <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="evervolv" revision="ics" />
 
   <project path="vendor/htc" name="android_vendor_htc" remote="evervolv" revision="ics" />
+  <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="android_vendor_qcom_opensource_kernel-tests_mm-audio" remote="evervolv" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="android_vendor_qcom_opensource_omx_mm-core" remote="evervolv" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-video" name="android_vendor_qcom_opensource_omx_mm-video" remote="evervolv" revision="ics" />
+  <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="evervolv" revision="ics"/>
 
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="evervolv" revision="ics" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="evervolv" revision="ics" />
