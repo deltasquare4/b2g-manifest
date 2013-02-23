@@ -98,6 +98,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="evervolv" revision="ics" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/support" name="platform/frameworks/support" />
+  <project path="hardware/cm" name="android_hardware_cm" remote="evervolv" revision="ics" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="evervolv" revision="ics"/>
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="evervolv" revision="ics"/>
