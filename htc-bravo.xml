@@ -26,7 +26,7 @@
            sync-j="4" />
 
   <!-- Gonk specific things and forks -->
-  <project path="build" name="platform_build" remote="deltasquare4" revision="master">
+  <project path="build" name="platform_build" remote="b2g" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
@@ -65,6 +65,7 @@
   <project path="external/icu4c" name="platform/external/icu4c" />
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jpeg" name="platform/external/jpeg" />
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
@@ -97,6 +98,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="evervolv" revision="ics" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/support" name="platform/frameworks/support" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="evervolv" revision="ics"/>
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="evervolv" revision="ics"/>
   <project path="hardware/ril" name="android_hardware_ril" remote="evervolv" revision="ics" />
@@ -112,20 +114,19 @@
 
   <!-- HTC Desire things -->
   <project path="device/htc/common" name="android_device_htc_common" remote="evervolv" revision="ics" />
-  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="evervolv" revision="ics" />
   <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="evervolv" revision="ics" />
+  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="evervolv" revision="ics" />
 
   <project path="vendor/htc" name="android_vendor_htc" remote="evervolv" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="android_vendor_qcom_opensource_omx_mm-core" remote="evervolv" revision="ics" />
 
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="evervolv" revision="ics" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="evervolv" revision="ics" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="evervolv" revision="ics" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="evervolv" revision="ics" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="evervolv" revision="ics" />
 
 <!--
-  <project path="frameworks/native" name="android_frameworks_native" remote="evervolv" revision="jellybean" />
   <project path="kernel" name="eternity-kernel" remote="deltasquare4" revision="jellybean" />
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="evervolv" revision="jellybean" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="evervolv" revision="jellybean" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="evervolv" revision="jellybean" />
 -->
 </manifest>
