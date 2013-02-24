@@ -121,6 +121,7 @@
   <project path="vendor/htc" name="android_vendor_htc" remote="evervolv" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="android_vendor_qcom_opensource_omx_mm-core" remote="evervolv" revision="ics" />
 
+  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="evervolv" revision="ics"/>
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="evervolv" revision="ics" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="evervolv" revision="ics" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="evervolv" revision="ics" />
